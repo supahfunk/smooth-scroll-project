@@ -18,7 +18,7 @@ body {
     height: 100vh;
 
     .scroll-content {
-        padding: 100px;
+        padding: 3vw;
     }
 
     p {
@@ -46,14 +46,15 @@ body {
         #parallax2 {
             position: absolute;
             z-index: 2;
-            top: 0;
+            top: 50%;
             margin-left: -40px;
             overflow: hidden;
-            height: 400px;
+            height: 350px;
+            width: 650px;
+            left: 50%;
+            transform: translate(-600px, -200px);
 
             img {
-                height: 130%;
-                width: auto;
             }
         }
     }
