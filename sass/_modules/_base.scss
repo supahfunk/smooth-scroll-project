@@ -1,0 +1,60 @@
+/*--------------------------------------------------
+Base
+--------------------------------------------------*/
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.wrapper {
+    background: #0094ff;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+    height: 100vh;
+
+    .scroll-content {
+        padding: 100px;
+    }
+
+    p {
+        padding-right: 100px;
+        margin-bottom: 30px;
+    }
+
+    .parallax {
+        margin: 100px 0;
+        position: relative;
+        z-index: 1;
+
+        div {
+            box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .3);
+            width: 50%;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        img {
+            width: 100%;
+        }
+
+
+        #parallax2 {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            margin-left: -40px;
+            overflow: hidden;
+            height: 400px;
+
+            img {
+                height: 130%;
+                width: auto;
+            }
+        }
+    }
+}
